@@ -16369,7 +16369,7 @@ function uS() {
       { name: "roadmap" },
       { name: "tokenomics" },
       {
-        name: "whitepaper",
+        name: "dextools",
         link: "https://drive.google.com/file/d/1X-ceoG-v6sBemyrzlF0EUJWO0PqjrRnO/view",
         url: !0,
       },
