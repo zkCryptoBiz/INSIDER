@@ -16521,7 +16521,7 @@ function vS() {
         url: "https://www.pinksale.finance/solana/launchpad/HUxNg8hu8eD1osfR2k2EcrCdUfV9Jcratas19sBWWr7Q",
       },
       { text: "highscores", image: hS },
-      { text: "telegram", image: pS, url: "https://t.me/InsidersPortal" },
+      { text: "telegram", image: pS, url: "https://t.me/gergegegeg" },
       { text: "x", image: mS, url: "https://x.com/solinsiders" },
     ],
     t = [
