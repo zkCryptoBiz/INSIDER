@@ -16522,7 +16522,7 @@ function vS() {
       },
       { text: "highscores", image: hS },
       { text: "telegram", image: pS, url: "https://t.me/gergegegeg" },
-      { text: "x", image: mS, url: "https://x.com/solinsiders" },
+      { text: "x", image: mS, url: "https://x.com/okdqkdkqdk" },
     ],
     t = [
       {
