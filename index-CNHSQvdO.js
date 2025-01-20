@@ -17047,50 +17047,7 @@ function MS() {
     }),
   });
 }
-const NS = "/assets/HIGH-LjOqzCZG.webp",
-  IS = "/assets/SCORES-DMJ_CM77.webp";
-function RS({}) {
-  const { ref: e, inView: t } = fi({ triggerOnce: !0, threshold: 0.3 }),
-    n = [
-      { position: "1ST", ath: "000.000", ticker: "Null", color: "#f8e300" },
-      { position: "2ND", ath: "000.000", ticker: "Null", color: "#f7bc00" },
-      { position: "3RD", ath: "000.000", ticker: "Null", color: "#cf7c16" },
-      { position: "4TH", ath: "000.000", ticker: "Null", color: "#7bffce" },
-      { position: "5TH", ath: "000.000", ticker: "Null", color: "#3ef4b0" },
-      { position: "6TH", ath: "000.000", ticker: "Null", color: "#00cf82" },
-      { position: "7TH", ath: "000.000", ticker: "Null", color: "#c967de" },
-      { position: "8TH", ath: "000.000", ticker: "Null", color: "#a842be" },
-      { position: "9TH", ath: "000.000", ticker: "Null", color: "#901ea9" },
-      { position: "10TH", ath: "000.000", ticker: "Null", color: "#7e0199" },
-    ];
-  return g.jsxs("section", {
-    id: "highscores",
-    ref: e,
-    className: "w-screen overflow-hidden h-full relative mt-20 md:mt-56 pb-20",
-    children: [
-      g.jsxs(I.div, {
-        className: "flex flex-col justify-center items-center",
-        children: [
-          g.jsx(I.img, {
-            initial: { opacity: 0, x: "100rem" },
-            animate: t ? { opacity: 1, x: 0 } : { opacity: 0 },
-            transition: { duration: 1, ease: "easeInOut", delay: 0.1 },
-            src: NS,
-            style: { userSelect: "none", willChange: "transform" },
-            className: "md:w-[600px] w-[250px] h-auto",
-            draggable: !1,
-          }),
-          g.jsx(I.img, {
-            initial: { opacity: 0, x: "-100rem" },
-            animate: t ? { opacity: 1, x: 0 } : { opacity: 0 },
-            transition: { duration: 1, ease: "easeInOut", delay: 0.2 },
-            src: IS,
-            style: { userSelect: "none", willChange: "transform" },
-            className: "md:w-[700px] w-[350px] h-auto mt-4",
-            draggable: !1,
-          }),
-        ],
-      }),
+
       g.jsxs(I.div, {
         className:
           "w-screen flex justify-center items-center mt-16 md:mt-20 gap-9 md:gap-16",
