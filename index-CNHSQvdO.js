@@ -9082,7 +9082,7 @@ function Fl(e, t, n, r) {
   return (
     n === void 0 && (n = null),
     As(
-      { pathname: typeof e == "string" ? e : e.pathname, search: "", hash: "" },
+      { pathname: typeof e == "string" ? e : e.pname, search: "", hash: "" },
       typeof t == "string" ? Xs(t) : t,
       { state: n, key: (t && t.key) || r || Wv() }
     )
@@ -9230,7 +9230,7 @@ function Pp(e, t, n, r) {
         a.relativePath.startsWith(r),
         'Absolute route path "' +
           a.relativePath +
-          '" nested under path ' +
+          '" nested under p ' +
           ('"' + r + '" is not valid. An absolute child route path ') +
           "must start with the combined path of all its parent routes."
       ),
@@ -16504,7 +16504,7 @@ const cS = "/assets/blackhole-BwBTPoT2.webp",
   fS =
     "data:image/webp;base64,UklGRsAFAABXRUJQVlA4TLQFAAAvo8RKEEfCJrbtKOcnFQ4YpGAB/VT0VJuALQmYYBRJkqJcPgdk8hyfhvvysIok2Um/YIDfZIBCBf6r8IGDvAzbRlLk47v/779TxjoAfnySGKCQIhQpUxISKYpciuWEIAg6KorA3G8FJShBzhEJivU4lQiCKD9SUf7f877K/yv/r4j3+1zXZZt2+JEQEBCw4sc9zMuC2sf44p22ISKcthe9sx4UdPiR/2Tcj0ZEgiKQ6g0SJElSJGdHzFqxjsS0YsZj1P/fNLnVXdQzRxnRfziQJMdtZnILd1hACfwRZQeTYxr+An+CE+cer6Kzsr6amLptYeoGyVrTsjW4W0r/of9kQye6qmV1OTic8+BqSq6BF0FsYf3EpKoYjvJUbIHqWUt1YupXXxOyVb1sLoFzMpaS2BtcJ/Qf+k824PimWsozI1aB+41aNTfBaUzVNhIc3i1wqm3wlnrNWnEVyXRebSNpQraKW3kVxFTk2MJrIL7r0n/oP21CnokmbSTDh9w+3KpM6tlqWivpP/SfQ2BSnhj6D/3nRAw3+94A8Yti0n84IX/Bccs2GIXVWuk/9J/xAJ5YGzDcBgfU2dEmZMs7OPz9vjuiByBWSf+h/wxQroOrzsQtNDirscXoDiCakK0oHPSV2QfpP/SfAcs/cM58Gyt/wa+gFEQ4prlyt+9qtTdAb6SerWis1Er/of8MWLyGKwl2YvsKzBG1ecLqcmEntrgtReF8365Y+g93YcWZSfCk1Kcg9gjHg8MQfQY+B1+Db/q+BF+AOFx8TEuDl5WYyntiFNb7Toql/9B/BjCdM5MAW5rDJYwkh9o+45WmZMs7G33pP/SfEYD11dS6wzpkVheZ4vXOUJJDbX/xSsxsrVlfCsq6eIwzCpO+9B/6z2EHMbwDTr2ELFXqQxWFYOGyXpSbIJLEc0Wg/9B/2sRvUA0cpoh5FeY4K76iihy0bqX3rFn3qJ7i6swDHjRbXhblH1Am5eXyW5T+c4o+P8BFEJgzDHEcOEyR6iqm1VV4wbyViFkra8exqDXMqZdhFrcyata0qqoHq1ObbrWAi60LGqJFq0X5HUSKW+kt6G4mRuys3GH6D/0nG76Cak3AYYpUV7FYXYUXvLSyvIoo68R6mEtgcSujZk2rqnqwOrXpVgu42LqgIZpaLcpvIGLVysXYb/HYm3OgnAr6D/0nC2bgopY4TMRLFeY4K76iihxUb2XwrGlXVU9xdeYBD5otL4vyHSiT6nKZiXai9B/6z6EWn8Fxy3tQjVxfhf5D/xld7ICz2A7ms6MPQeQeWL6mnYsPvbt6UXpnAVRfF1bpoP/Qf8YbsZUzOHgxO+u4Y+weKF8KShKotRarpP/wKVbAndh+AscGUS4FpZiPYDXm57HoP/SfwxHmvEpsW3h2tPzHePoA5kSUS0FJ4uzoiuRj8BFI/6H/jHTmvEosL4ByC1NHr7hqF8BcwLVsFq7i4ajfGUqUs6OX+8o9OgvSf+g/I52CCXLmW7BlP/eU25+x3Dn3QbX9XC9bTr0sblfez45e6Vu+1Ok/9J+RDw7rARj0uSIMV5rw7BiicLav/BUQL4D0H17FFxCfadKhK94SXH4ui/5D/xnriOuG/kP/of/Qf07JJrcJoP/Qf44lUvx8uZuG19+brxr8vfnoP3SBM+AA4j84S9Xqv1OPPdDsYjhyuLAQ9ZaV04RsyYhp8JrgSXH2vLSS/kP/CY/oLuhtnajPrzleii+/M5SU9dbKerRM6g9PpAnZ8t7KepxVSf+h/2SDvJsNAdTuDCXXraC6lWYbSw4TY9YymSZkq7qVXhNcvji9pSSJ93I3WBdP/6HeLINq4DBxnXhZdeZ4KT7YnaFEuW4S61aWbyzOJib6vZu0JFud11Zqz1vnpZX0H/pPdOpfxcs6UY+uOc6KPzT+H+WX+8RhNfQf+k9UklonWfxLDD1ClP5D/0mCCQ==",
   dS = "/assets/buy-now-button-U7gp6bdd.webp",
-  hS = "/assets/highscores-button-WrSvMxaP.webp",
+
   pS = "/assets/telegram-button-CONKI9xa.webp",
   mS = "/assets/x-button-D04aKgQ1.webp",
   ud = "/assets/diamond-BBBBRYGL.webp",
@@ -16520,7 +16520,7 @@ function vS() {
         image: dS,
         url: "https://www.pinksale.finance/solana/launchpad/HUxNg8hu8eD1osfR2k2EcrCdUfV9Jcratas19sBWWr7Q",
       },
-      { text: "highscores", image: hS },
+      
       { text: "telegram", image: pS, url: "https://t.me/gergegegeg" },
       { text: "x", image: mS, url: "https://x.com/okdqkdkqdk" },
     ],
@@ -16841,6 +16841,7 @@ function MS() {
     className: "w-screen h-full relative pt-24 lg:mt-56",
     children: g.jsxs("div", {
       className: "flex flex-col justify-center items-center",
+      
       children: [
         g.jsxs(I.h1, {
           initial: { opacity: 0 },
@@ -17047,7 +17048,22 @@ function MS() {
     }),
   });
 }
+const NS = "/assets/HIGH-LjOqzCZG.webp",
+  IS = "/assets/SCORES-DMJ_CM77.webp";
+function RS({}) {
+  const { ref: e, inView: t } = fi({ triggerOnce: !0, threshold: 0.3 }),
+    n = [
 
+    ];
+  return g.jsxs("section", {
+    id: "highscores",
+    ref: e,
+    className: "w-screen overflow-hidden h-full relative mt-20 md:mt-56 pb-20",
+    children: [
+      g.jsxs(I.div, {
+        className: "flex flex-col justify-center items-center",
+
+      }),
       g.jsxs(I.div, {
         className:
           "w-screen flex justify-center items-center mt-16 md:mt-20 gap-9 md:gap-16",
@@ -17087,14 +17103,7 @@ function MS() {
           }),
           g.jsxs("div", {
             children: [
-              g.jsx(I.p, {
-                className:
-                  "text-white text-xl md:text-4xl font-pixeloid-bold pb-2",
-                initial: { opacity: 0 },
-                animate: t ? { opacity: 1 } : { opacity: 0 },
-                transition: { duration: 0.5, ease: "easeInOut", delay: 1.1 },
-                children: "ATH",
-              }),
+
               n.map((r, i) =>
                 g.jsx(
                   I.p,
@@ -17118,14 +17127,7 @@ function MS() {
           }),
           g.jsxs("div", {
             children: [
-              g.jsx(I.p, {
-                className:
-                  "text-white text-xl md:text-4xl font-pixeloid-bold pb-2",
-                initial: { opacity: 0 },
-                animate: t ? { opacity: 1 } : { opacity: 0 },
-                transition: { duration: 0.5, ease: "easeInOut", delay: 1.2 },
-                children: "TICKER",
-              }),
+
               n.map((r, i) =>
                 g.jsx(
                   I.p,
