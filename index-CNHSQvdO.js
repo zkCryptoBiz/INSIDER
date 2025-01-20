@@ -16370,7 +16370,7 @@ function uS() {
       { name: "tokenomics" },
       {
         name: "dextools",
-        link: "https://drive.google.com/file/d/1X-ceoG-v6sBemyrzlF0EUJWO0PqjrRnO/view",
+        link: "https://www.dextools.io/app/en/solana/pair-explorer/......",
         url: !0,
       },
     ],
@@ -16438,7 +16438,7 @@ function uS() {
             g.jsx(I.button, {
               onClick: () =>
                 window.open(
-                  "https://www.pinksale.finance/solana/launchpad/HUxNg8hu8eD1osfR2k2EcrCdUfV9Jcratas19sBWWr7Q",
+                  "https://raydium.io/swap/?inputMint=sol&outputMint=xxxxxx",
                   "_blank"
                 ),
               className:
@@ -16518,11 +16518,11 @@ function vS() {
       {
         text: "buy now",
         image: dS,
-        url: "https://www.pinksale.finance/solana/launchpad/HUxNg8hu8eD1osfR2k2EcrCdUfV9Jcratas19sBWWr7Q",
+        url: "https://raydium.io/swap/?inputMint=sol&outputMint=xxxxxx",
       },
       
-      { text: "telegram", image: pS, url: "https://t.me/gergegegeg" },
-      { text: "x", image: mS, url: "https://x.com/okdqkdkqdk" },
+      { text: "telegram", image: pS, url: "https://t.me/SpookiCoinSol" },
+      { text: "x", image: mS, url: "https://x.com/SpookiCoin" },
     ],
     t = [
       {
