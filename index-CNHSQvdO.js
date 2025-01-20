@@ -16399,7 +16399,7 @@ function uS() {
               className: "z-50",
               children: g.jsx("img", {
                 src: lg,
-                alt: "Insider Character",
+                alt: "SPOOKI Character",
                 draggable: !1,
                 style: { userSelect: "none" },
                 width: 64,
@@ -16604,7 +16604,7 @@ function vS() {
           }),
           g.jsx("img", {
             src: fS,
-            alt: "Insider Logo",
+            alt: "SPOOKI Logo",
             className:
               "object-cover absolute mt-10 md:mt-16 lg:w-[520px] md:w-[450px] sm:w-[350px] w-[260px] h-auto",
             draggable: !1,
@@ -16850,7 +16850,7 @@ function MS() {
           style: { textShadow: "5px 5px #dc8e10" },
           className:
             "text-text-secondary text-4xl sm:text-5xl md:text-7xl lg:text-9xl font-pixeloid-bold uppercase text-center leading-[114%]",
-          children: ["What is", g.jsx("br", {}), " insider?"],
+          children: ["What is", g.jsx("br", {}), " SPOOKI?"],
         }),
         g.jsxs("div", {
           className:
@@ -16858,7 +16858,7 @@ function MS() {
           children: [
             g.jsx(I.img, {
               src: xS,
-              alt: "insider",
+              alt: "SPOOKI",
               initial: { opacity: 0 },
               animate: { opacity: t ? 1 : 0 },
               transition: { duration: 1, delay: 0.3 },
@@ -16882,7 +16882,7 @@ function MS() {
                   maxWidth: "100%",
                 },
                 children:
-                  "INSIDER is a game which primary focus is to launch Pumpfun projects in order to give its players opportunities for profits. Being an INSIDER means getting in on the action early. You’ll get exclusive access to these plays before anyone else.",
+                  "SPOOKI is a game which primary focus is to launch Pumpfun projects in order to give its players opportunities for profits. Being an SPOOKI means getting in on the action early. You’ll get exclusive access to these plays before anyone else.",
               }),
             }),
           ],
@@ -16894,7 +16894,7 @@ function MS() {
           style: { textShadow: "5px 5px #dc8e10" },
           className:
             "text-text-secondary text-3xl sm:text-5xl font-pixeloid-bold uppercase text-center mt-8 md:mt-16",
-          children: "The insider ecosystem",
+          children: "The SPOOKI ecosystem",
         }),
         g.jsxs("div", {
           className:
@@ -16921,7 +16921,7 @@ function MS() {
                     }),
                     g.jsx(I.img, {
                       src: lg,
-                      alt: "Insider Logo",
+                      alt: "SPOOKI Logo",
                       initial: { opacity: 0 },
                       animate: { opacity: t ? 1 : 0 },
                       transition: { duration: 1, delay: 1.2 },
@@ -16944,7 +16944,7 @@ function MS() {
                         className:
                           "text-white text-sm md:text-base lg:text-xl font-pixeloid-bold text-center",
                         children:
-                          "The main project INSIDER, Experienced building community for early access.",
+                          "The main project SPOOKI, Experienced building community for early access.",
                       }),
                     }),
                   ],
@@ -17037,7 +17037,7 @@ function MS() {
                     className:
                       "text-white text-sm md:text-base lg:text-xl font-pixeloid-bold text-center",
                     children:
-                      "Converting new members into INSIDER. As well as increasing the INSIDER budget.",
+                      "Converting new members into SPOOKI. As well as increasing the SPOOKI budget.",
                   }),
                 }),
               ],
@@ -17893,7 +17893,7 @@ function lT() {
               style: { textShadow: "5px 5px #32a285" },
               className:
                 "text-text-third text-[50px] sm:text-6xl md:text-7xl font-pixeloid-bold uppercase text-center leading-[134%] z-50",
-              children: ["become an", g.jsx("br", {}), "insider"],
+              children: ["become an", g.jsx("br", {}), "SPOOKI"],
             }),
             g.jsxs("div", {
               className: "flex flex-col z-50 justify-center items-center",
